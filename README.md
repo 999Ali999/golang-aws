@@ -13,7 +13,7 @@ This project is a **RESTful API** built with **Golang**, **using only the Standa
 
 ## API Endpoints
 
-### Live at : http://13.61.35.203:8080
+### Live at : http://13.61.35.203:8080/hello
 
 ### Public Routes
 
