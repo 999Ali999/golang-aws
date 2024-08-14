@@ -9,7 +9,7 @@ import (
 var DB *sql.DB
 
 func Connect() *sql.DB {
-	connStr := "postgres://postgres:ali.sh.81@database-1.cb4yiqgg0f3u.eu-north-1.rds.amazonaws.com/mydb?sslmode=disable"
+	connStr := "postgres://postgres:ali.sh.81@database-1.cb4yiqgg0f3u.eu-north-1.rds.amazonaws.com/users?sslmode=require"
 	var err error
 	DB, err = sql.Open("pgx", connStr)
 	if err != nil {
